@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 2em;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #21988b;
+}
+nav {
+    margin-top:1em;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#paralax {
+    height: 800px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://i.ibb.co/BPwzRmn/banniere-1.png');
+        
+}
+#show {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 4em;
+}
+#show article {
+    width: 22.5%;
+    height: 400px;
+    margin-right: 1em;
+    display: flex;
+    border: solid 1px black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    background-size: cover;
+}
+/*#show-1 {
+    transform: scale(1.2);
+    transition: all .5s;
+}*/
+#show-1{
+    background-image: url('https://www.compoplume.fr/wp-content/uploads/2023/02/developpement_durable_2022.jpg');
+}
+#show-2 {
+    background-image: url('https://www.compoplume.fr/wp-content/uploads/2023/01/table-bistro-1.png');
+}
+#show-3 {
+    background-image: url('https://www.compoplume.fr/wp-content/uploads/2023/02/photo_ils_parlent_de_nous-1.png');
+}
+#show button {
+            width: 50%;
+            background-color: black;
+            height: auto;
+            padding: 1.5em;
+            margin-top: 2em;
+            border: none;
+            cursor: pointer;
+}
+#show button a {
+    font-size: 0.85em;
+    text-decoration: none;
+    color: white;
+}
+#engage h2 {padding-bottom: 1.5em;}
+#engage {
+    margin-top: 2em;
+    height: 80vw;
+    width: 100vw;
+    text-align: center;
+}
+#engage img {
+    margin: auto;
+    height: auto;
+    width: 80vw;
+}
+#histoire {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+#histoire .contain {
+    background-color: #21988b;
+    padding: 7em;
+    color: white;
+}
+#histoire h2 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+#histoire button {
+    width: 40%;
+    background-color: black;
+    height: auto;
+    padding: 1.5em;
+    margin-top: 2em;
+    border:none;
+    cursor:pointer;
+}
+#histoire button a {
+        text-decoration: none;
+        color: white;
+}
+#partners h2 {
+    text-align: center;
+    margin: auto;
+}
+#partners img {
+    width: 75vw;
+    margin: auto;
+}
+.contain {
+    display: flex;
+    flex-direction: column;
+}
+iframe {
+    width: 100vw;
+    height: 600px;
+}
+@media (max-width: 780px) {
+    #show article{
+        width:95%;
+    }
+}
